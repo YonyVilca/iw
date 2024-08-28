@@ -1,0 +1,106 @@
+/* Estilos globales */
+body {
+  padding-left: 21em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: purple;
+  background-color: #d8da3d;
+  margin: 0;
+}
+
+/* Menú de navegación superior (navbar) */
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  overflow: hidden;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 12em;
+}
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+}
+
+ul.navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1em;
+}
+
+ul.navbar a:hover {
+  background-color: #555;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* Estilos para el contenido principal */
+.content {
+  margin-left: 17em;
+  padding: 1em;
+}
+
+/* Estilos para los títulos */
+h1 {
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  color: purple;
+}
+
+/* Estilos para el menú izquierdo (sidebar) */
+.sidebar {
+  position: absolute;
+  top: 5em;
+  left: 0;
+  width: 15em;
+  background-color: #f4f4f4;
+  padding: 1em;
+  border-right: 2px solid #ccc;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin: 0.5em 0;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5em;
+  display: block;
+  background-color: #fff;
+  border-left: 3px solid #000;
+}
+
+.sidebar-menu a:hover {
+  background-color: #ddd;
+}
+
+/* Resaltar el menú activo */
+.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+/* Estilo para el pie de página */
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
