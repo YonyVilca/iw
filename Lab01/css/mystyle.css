@@ -104,3 +104,48 @@ address {
   padding-top: 1em;
   border-top: thin dotted;
 }
+
+/* Estilos para la galería */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.gallery figure {
+  margin: 0;
+  padding: 0;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  width: calc(25% - 40px); /* Ajusta el tamaño de las imágenes */
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.gallery figcaption {
+  padding: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* Estilos responsivos para la galería */
+@media (max-width: 768px) {
+  .gallery figure {
+    width: calc(50% - 20px); /* Ajuste para pantallas medianas */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery figure {
+    width: 100%; /* Ajuste para pantallas pequeñas */
+  }
+}
