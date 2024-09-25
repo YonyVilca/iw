@@ -14,3 +14,7 @@ Este proyecto implementa una página web simple utilizando un contenedor Docker 
    git clone https://github.com/YonyVilca/iw.git
    http://172.17.0.2/index.html
   
+** LAB 04
+
+- sudo docker build -t lab04_8.1 .
+- sudo docker run -d -p 8086:8086 lab04_8.1
